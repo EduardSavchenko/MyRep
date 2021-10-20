@@ -36,7 +36,18 @@ body {
     border: none;
     border-radius: 5px;
     background-color: #eee;
-    
+    cursor: pointer;
+
+    font-size: 30px;
+    box-shadow: 2px 3px 2px rgb(0, 0, 0, 0.5);
+}
+
+.calc__btn:hover {
+    opacity: 0.9;   
+}
+
+.calc__btn:active {
+    box-shadow: 1px 1px 2px rgb(0, 0, 0, 0.5);
 }
 .calc__btn_operator {
     background-color: #ffe2ae;  
