@@ -38,3 +38,17 @@ body {
     background-color: #eee;
     
 }
+.calc__btn_operator {
+    background-color: #ffe2ae;  
+}
+
+.calc__btn_reset {
+    background-color: #ff5050;
+    color :#fff;
+
+}
+
+.calc__btn_equal {
+    background-color: #5d50ff;
+    grid-column: 2 /-1 ;
+}
